@@ -19,6 +19,8 @@
 
 <!-- membuat js to controller filter -->
 @push('after-script')
+<!-- membutuhkan id search dan status -->
+<!-- mmebutuhkan controller yang di tuju -->
 <script>
     $(document).ready(function() {
         getMoreCampaign(1);
