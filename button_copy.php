@@ -15,6 +15,7 @@
     <input type="text" value="{{ url()->current() }}" id="copylink" hidden>
 </body>
 <script>
+    // buat function copy mengambil id input
     function copyFunction() {
         var copyText = document.getElementById("copylink");
         copyText.select();

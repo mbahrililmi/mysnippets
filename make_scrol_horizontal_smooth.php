@@ -9,7 +9,20 @@
     <style>
         /* 1.  */
         .scroll {
+            flex-wrap: nowrap;
+            overflow-x: scroll;
             scroll-behavior: smooth;
+        }
+
+        .scroll::-webkit-scrollbar-track {
+            display: none;
+        }
+
+        .scroll::-webkit-scrollbar-thumb {
+            display: none;
+        }
+        .slider-custom::-webkit-scrollbar {
+            display: none;
         }
     </style>
 </head>
