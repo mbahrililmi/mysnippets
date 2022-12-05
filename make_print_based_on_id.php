@@ -13,6 +13,10 @@
 
         window.print();
 
+        // refresh or
+        window.location.reload();
+
+        //  window.location.reload();
         document.body.innerHTML = originalContents;
     }
 </script>
